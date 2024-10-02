@@ -168,6 +168,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ParkingServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -185,4 +186,13 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    /*
+     * Parking Lot configuration
+     */
+    'parking_lot' => [
+        'capacity' => [
+            'auto' => env('PL_AUTO_SPOTS', 0),
+            'moto' => env('PL_MOTO_SPOTS', 0),
+        ]
+    ]
 ];
