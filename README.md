@@ -1,4 +1,4 @@
-# Technical Interview Challenge
+# Roofr - Technical Interview Challenge
 The task is [here](https://s3.eu-central-1.wasabisys.com/denysaw/Take_Home_-_Backend_Parking_Lot_Challenge.pdf)
 
 ## Installation
